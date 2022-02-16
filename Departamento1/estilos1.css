@@ -1,0 +1,81 @@
+body{
+   background-color:#e6e7e9;
+}
+h1{
+    text-align: center;
+}
+
+.Formulario{
+    width: 320px ; /*Ancho */
+    background: rgb(189, 185, 185);/* color fondo  */
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type = "text"]{
+    width: 100%;
+    background: none;
+    border: 1px solid #f57906;
+    border-radius: 6px; /* boder radius sirve para redondear el cuadro  */
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #F2B705;
+    
+}
+input[type ="submit"]{
+    background: #F2B705;
+    width: 100%;
+    border-radius: 6px;/* boder radius sirve para redondear el cuadro  */
+    padding: 5px 10px;
+    border: #023373;
+    cursor: pointer;
+    -webkit-animation-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aqua;
+
+}
+input[type ="submit"]:hover{
+     background:aqua;
+     color: #f20505;
+
+    
+}
+
+.Busqueda{
+    width: 320px ; /*Ancho */
+    background: rgb(189, 185, 185);/* color fondo  */
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+select[class ="seleccion"]{
+    width: 100%;
+    background: black;
+    border: 1px solid #f57906;
+    border-radius: 6px; /* boder radius sirve para redondear el cuadro  */
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #F2B705;
+}
+
+.Eliminar{
+    width: 320px ; /*Ancho */
+    background: rgb(189, 185, 185);/* color fondo  */
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
