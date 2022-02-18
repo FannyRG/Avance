@@ -1,0 +1,64 @@
+/* .fondoimg img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+} */
+body{
+    background-image: url(fondo.jpg);
+
+    
+   
+}
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+
+}
+.caja{
+    position: obsolute;
+}
+  button{
+      font-family: 'Syne Tactile', cursive;
+      width: 10%;
+      background: none;
+      border: 1px solid #227302;
+      border-radius: 6px; /* boder radius sirve para redondear el cuadro  */
+      padding: 6px 15px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      color: #030303;
+      cursor: pointer;
+  }
+  p{
+      color: rgb(7, 7, 7);
+      font-family: 'Syne Tactile', cursive;
+      text-align: justify;
+  }
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #canvas{
+      border: 1px solid ;
+      display: flex;
+  }
+  a{
+      font-family: 'Syne Tactile', cursive;
+      color: rgb(8, 8, 8);
+  }
+  hr{
+      color: #F2B705;
+      width: 30%;
+      text-align: center;
+
+  }
